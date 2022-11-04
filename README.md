@@ -1,12 +1,12 @@
-<h1 align="center"><b>❤ Sophia v3 ❤</b></h1>
+<h1 align="center"><b>❤ Princess Elaina ❤</b></h1>
 
 
-<p align="center"><a href="https://t.me/SophiaSupport_Official"><img src="https://telegra.ph/file/f6afa44d010598c379503.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/Tiger_SupportChat"><img src="https://te.legra.ph/file/c15f6f62645d343da60e3.jpg" width="400"></a></p>
 <p align="center">
-  <h4 align="center"><b>A Powerful, Smart And Simple Group Manager <br> ... Written with  Pyrogram and Telethon...</b></h4>  
+  <h4 align="center"><b>An anime themed advanced telegram management bot with a lot of fun features <br> ... Written with Pyrogram and Telethon...</b></h4>  
 
 <p align="center">
-    <a href="https://github.com/dihanofficial/sophiabot/stargazers"><img src="https://img.shields.io/github/stars/dihanofficial/SophiaBot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/Awesome-Gtash/ElainaRobot/stargazers"><img src="https://img.shields.io/github/stars/Awesome-Gtash/ElainaRobot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
     <a href="https://app.codacy.com/manual/dihanofficial/Sophiabot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
