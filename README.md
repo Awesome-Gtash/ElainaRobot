@@ -9,36 +9,27 @@
     <a href="https://github.com/Awesome-Gtash/ElainaRobot/stargazers"><img src="https://img.shields.io/github/stars/Awesome-Gtash/ElainaRobot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
-    <a href="https://app.codacy.com/manual/dihanofficial/Sophiabot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/dihanofficial/sophiabot"> <img src="https://img.shields.io/github/repo-size/dihanofficial/sophiabot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/dihanofficial/sophiabot/commits/dihanofficial"> <img src="https://img.shields.io/github/last-commit/dihanofficial/sophiabot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/dihanofficial/sophia/issues"> <img src="https://img.shields.io/github/issues/dihanofficial/sophiabot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/dihanofficial/sophiabot/network/members"> <img src="https://img.shields.io/github/forks/dihanofficial/sophiabot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://app.codacy.com/manual/Awesome-Gtash/ElainaRobot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/Awesome-Gtash/ElainaRobot"> <img src="https://img.shields.io/github/repo-size/Awesome-Gtash/ElainaRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Awesome-Gtash/ElainaRobot/commits/Awesome-Gtash"> <img src="https://img.shields.io/github/last-commit/Awesome-Gtash/ElainaRobot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Awesome-Gtash/ElainaRobot/issues"> <img src="https://img.shields.io/github/issues/Awesome-Gtash/ElainaRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Awesome-Gtash/ElainaRobot/network/members"> <img src="https://img.shields.io/github/forks/Awesome-Gtash/ElainaRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
-</p>
-
-
- <b> ⭐️ Thanks to everyone who starred Sophia, That is the greatest pleasure we have ! </b> 
+</p> 
 
 
 
-## Avaiilable on Telegram as [@SophiaSLBot](https://t.me/sophiaslbot)
-
-### Video Tutorial:
-Complete guide on deploying @SophiaSLBot's clone on Heroku.
-
-🙋‍♂️ Video by [Dihan Randila](https://youtu.be/Yyw2TfwQTSg) ☆
-[![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://youtu.be/Yyw2TfwQTSg)
+## Avaiilable on Telegram as [@ElainaXProBot](https://t.me/elainaxprobot)
 
 ### Deploy To Heroku</h4>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dihanofficial/Sophiabot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Awesome-Gtash/ElainaRobot)
 
 
 
 
-## Join my Updates Channel & Support Chats
-<a href="https://t.me/SophiaSUPPort_official"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/SophiaUpdates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+## Join our Updates Channel & Support Chat
+<a href="https://t.me/Tiger_SupportChat"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/Tiger_Updates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
 
