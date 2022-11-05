@@ -74,7 +74,17 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there! My name is <b>Sophia.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
+PM_START_TEXT = """
+────「 [{}](https://te.legra.ph/file/5aadfffa390146c1fb9a2.jpg) 」────
+*Hey Prince Is Here! {},*
+*I am an Anime Themed Advance Group Management Bot With Lot Of fun Features.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➪ *Uptime:* `{}`
+➪ *Python:* 3.10.8
+➪ `{}` *Users, Across* `{}` *Chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➪ Hit The *Help* Button Below To Know My Powers ××
+"""
 
 buttons = [
     [
