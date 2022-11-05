@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text("Heya, Sophia here :) PM me if you have any questions how to use me!")
+        update.effective_message.reply_text("Hola, Elaina is here :) PM me if you have any questions how to use me!")
 
 
 def error_handler(update, context):
@@ -344,11 +344,11 @@ def help_button(update, context):
 
 
 @run_async
-def sophia_about_callback(update, context):
+def elaina_about_callback(update, context):
     query = update.callback_query
-    if query.data == "sophia_":
+    if query.data == "elaina_":
         query.message.edit_text(
-            text=""" My name is *Sophia*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
+            text=""" My name is *Elaina*, I have been written with Pyrogram and Telethon.. I'm online since 7 November 2022 and is constantly updated!
 *Bot Version No: 1*
 \n*Bot Owner:*
 -  @Awesome_MB
@@ -356,7 +356,7 @@ def sophia_about_callback(update, context):
 * Support Chat:* @Tiger_SupportChat
                  \n\n* And finally special thanks of gratitude to all my users who relied on me for managing their groups, I hope you will always like me; My developers are constantly working to improve me!
                  \n\n *Licensed under the GNU Affero General Public Lisence v1.0*
-                 \n© 2020 - 2021 @ElainaXProBot. All Rights Reserved """,
+                 \n© 2022 - 2023 @ElainaXProBot. All Rights Reserved """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -383,7 +383,7 @@ def sophia_about_callback(update, context):
             text=f"*Here's basic Help regarding* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
-            f"\n• Than send `/admincache@SophiaSLBot` in that chat to refresh admin list in My database.\n"
+            f"\n• Than send `/admincache@ElainaXProBot` in that chat to refresh admin list in My database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -434,7 +434,7 @@ def sophia_about_callback(update, context):
                 [[InlineKeyboardButton(text="Back", callback_data="elaina_basichelp")]]
             ),
         )
-    elif query.data == "sophia_support":
+    elif query.data == "elaina_support":
         query.message.edit_text(
             text="* Elaina's Updates & Supports*"
             "\nJoin Support Group & Updates Channel",
@@ -747,7 +747,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 5189767566 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -812,7 +812,7 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    about_callback_handler = CallbackQueryHandler(sophia_about_callback, pattern=r"sophia_")
+    about_callback_handler = CallbackQueryHandler(sophia_about_callback, pattern=r"elaina_")
     source_callback_handler = CallbackQueryHandler(Source_about_callback, pattern=r"source_")
 
     donate_handler = CommandHandler("donate", donate)
