@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 ────「 [{}](https://te.legra.ph/file/5aadfffa390146c1fb9a2.jpg) 」────
-*Hey Prince Is Here! {},*
+*Hey your Princess Is Here! {},*
 *I am an Anime Themed Advance Group Management Bot With Lot Of fun Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➪ *Uptime:* `{}`
@@ -88,7 +88,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text=" Commands Help ❓", callback_data="help_back"),
+        InlineKeyboardButton(text=" 🎗️ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
@@ -96,19 +96,19 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
+        InlineKeyboardButton(text="📢 Updates", url=f"https://t.me/Tiger_Updates"),
+        InlineKeyboardButton(text="🎯 Support", url=f"https://t.me/Tiger_SupportChat"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ Add me to your Groups ➕", url="t.me/ElainaXProBot?startgroup=true"),   
     ],
 ]
 
 HELP_STRINGS = """
-Hi Boss! I'm <b>Sophia</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
+Hey Darling! I'm <b>Elaina</b>. An anime themed cute & powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
 """
 
-DONATE_STRING = """ Join Updates Channel @SophiaUpdates | Support Group @SophiaSupport_Official"""
+DONATE_STRING = """ Join Updates Channel @Tiger_Updates | Support Group @Tiger_SupportChat """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -349,26 +349,25 @@ def sophia_about_callback(update, context):
     if query.data == "sophia_":
         query.message.edit_text(
             text=""" My name is *Sophia*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
-*Bot Version: 3.0*
-\n*Bot Developers:*
--  @dihanrandila
--  @InukaASiTH
-\n* Updates Channel:* @SophiaUpdates
-* Support Chat:* @SophiaSupport_Official
+*Bot Version No: 1*
+\n*Bot Owner:*
+-  @Awesome_MB
+\n* Updates Channel:* @Tiger_Updates
+* Support Chat:* @Tiger_SupportChat
                  \n\n* And finally special thanks of gratitude to all my users who relied on me for managing their groups, I hope you will always like me; My developers are constantly working to improve me!
-                 \n\n *Licensed under the GNU Affero General Public Lisence v3.0*
-                 \n© 2020 - 2021 @SophiaSLBot. All Rights Reserved """,
+                 \n\n *Licensed under the GNU Affero General Public Lisence v1.0*
+                 \n© 2020 - 2021 @ElainaXProBot. All Rights Reserved """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="sophia_back")
+                    InlineKeyboardButton(text="Back", callback_data="elaina_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "sophia_back":
+    elif query.data == "elaina_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -379,7 +378,7 @@ def sophia_about_callback(update, context):
 
         
 
-    elif query.data == "sophia_basichelp":
+    elif query.data == "elaina_basichelp":
         query.message.edit_text(
             text=f"*Here's basic Help regarding* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
@@ -392,12 +391,12 @@ def sophia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Admins 👮‍♂️", callback_data="sophia_admin"),
-                    InlineKeyboardButton(text="Notes 📑", callback_data="sophia_notes"),
+                    InlineKeyboardButton(text="Admins 👮‍♂️", callback_data="elaina_admin"),
+                    InlineKeyboardButton(text="Notes 📑", callback_data="elaina_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support 👨‍🔧", callback_data="sophia_support"),
-                    InlineKeyboardButton(text="Credits 👨‍💻", callback_data="sophia_credit"),
+                    InlineKeyboardButton(text="🎯 Support", callback_data="elaina_support"),
+                    InlineKeyboardButton(text="Credits 👨‍💻", callback_data="elaina_credit"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="source_"),
@@ -407,10 +406,10 @@ def sophia_about_callback(update, context):
             ),
         )
 
-    elif query.data == "sophia_admin":
+    elif query.data == "elaina_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, *Sophia* now ready to manage your group."
+            f"\nCongragulations, *Elaina* now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -420,11 +419,11 @@ def sophia_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="sophia_basichelp")]]
+                [[InlineKeyboardButton(text="Back", callback_data="elaina_basichelp")]]
             ),
         )
 
-    elif query.data == "sophia_notes":
+    elif query.data == "elaina_notes":
         query.message.edit_text(
             text=f"<b> Setting up notes</b>"
             f"\nYou can save message/media/audio or anything as notes"
@@ -432,40 +431,40 @@ def sophia_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="sophia_basichelp")]]
+                [[InlineKeyboardButton(text="Back", callback_data="elaina_basichelp")]]
             ),
         )
     elif query.data == "sophia_support":
         query.message.edit_text(
-            text="* Sophia's Updates News & Supports*"
+            text="* Elaina's Updates & Supports*"
             "\nJoin Support Group & Updates Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support Group", url="t.me/dihan_official"),
-                    InlineKeyboardButton(text="Updates Channel", url="t.me/dihanofficial"),
+                    InlineKeyboardButton(text="🎯 Support", url="t.me/Tiger_SupportChat"),
+                    InlineKeyboardButton(text="📢 Updates", url="t.me/Tiger_Updates"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
+                    InlineKeyboardButton(text="Back", callback_data="elaina_basichelp"),
                  
                  ]
                 ]
             ),
         )
-    elif query.data == "sophia_credit":
+    elif query.data == "elaina_credit":
         query.message.edit_text(
-            text=f"*Credit For Sophia's Devs*\n"
-            f"\nHere Some Developers Helping in Making The Sophia Bot",
+            text=f"*Credit For Elaina's Devs*\n"
+            f"\nHere Some Developers Helping in Making The Elaina Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Dihan", url="t.me/dihanrandila"),
-                    InlineKeyboardButton(text="Inuka", url="t.me/InukaASiTH"),
+                    InlineKeyboardButton(text="Myaav Boi", url="t.me/Awesome_MB"),
+                    InlineKeyboardButton(text="LovelyPrince", url="t.me/Awesome_Prince"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
+                    InlineKeyboardButton(text="Back", callback_data="elaina_basichelp"),
                  
                  ]
                 ]
@@ -492,15 +491,15 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                    InlineKeyboardButton(text="🙋‍♀️ About Me", callback_data="sophia_"),
-                    InlineKeyboardButton(text="❓ Basic Help", callback_data="sophia_basichelp"),
+                    InlineKeyboardButton(text="🎀 About Me", callback_data="elaina_"),
+                    InlineKeyboardButton(text="💌 Basic Help", callback_data="elaina_basichelp"),
                   ],
                   [
-                    InlineKeyboardButton(text=" Special Credits ❤ ", url=f"https://telegra.ph/Special-Credits-08-21"),
+                    InlineKeyboardButton(text="My Friend ❤️", url=f"https://telegram.gog/OrekiXProRobot"),
                     InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
                   ],
                   [
-                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/dihanofficial/SophiaBot"),
+                    InlineKeyboardButton(text="🖤 Source Code", url=f"https://github.com/Awesome-Gtash/ElainaRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back")
