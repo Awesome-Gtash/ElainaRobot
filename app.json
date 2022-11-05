@@ -1,7 +1,7 @@
 {
       "name": "Princess Elaina",
       "description": "Advanced telegram group management bot.",
-      "logo": "https://telegra.ph/file/55ee43a1fe97fefd29ed0.jpg",
+      "logo": "https://te.legra.ph/file/5ae24c8c8d76ea09c47cf.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -50,7 +50,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1725052009"
+         "value": "5189767566"
       },
       "BOT_ID": {
          "description": "Needs your bot ID. Use any other bot to get it.",
