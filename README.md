@@ -9,7 +9,6 @@
     <a href="https://github.com/Awesome-Gtash/ElainaRobot/stargazers"><img src="https://img.shields.io/github/stars/Awesome-Gtash/ElainaRobot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
-    <a href="https://app.codacy.com/manual/Awesome-Gtash/ElainaRobot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
     <a href="https://github.com/Awesome-Gtash/ElainaRobot"> <img src="https://img.shields.io/github/repo-size/Awesome-Gtash/ElainaRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/Awesome-Gtash/ElainaRobot/commits/Awesome-Gtash"> <img src="https://img.shields.io/github/last-commit/Awesome-Gtash/ElainaRobot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/Awesome-Gtash/ElainaRobot/issues"> <img src="https://img.shields.io/github/issues/Awesome-Gtash/ElainaRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
