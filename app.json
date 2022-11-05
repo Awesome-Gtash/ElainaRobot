@@ -1,15 +1,15 @@
 {
-      "name": "Sophia",
-      "description": "Telegram group management bot.",
+      "name": "Princess Elaina",
+      "description": "Advanced telegram group management bot.",
       "logo": "https://telegra.ph/file/55ee43a1fe97fefd29ed0.jpg",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Sophia"
+         "Elaina"
       ],   
-   "repository": "https://github.com/dihanofficial/SophiaBot",
+   "repository": "https://github.com/Awesome-Gtash/ElainaRobot",
    "addons": [
       {
          "options": {
@@ -28,7 +28,7 @@
   ],  
    "env": {
       "TOKEN": {
-         "description": "Your bot token. Get one from @BotFather duh",
+         "description": "needs your bot token. Get bot token from @BotFather on telegram",
          "required": true,
          "value": ""
       },
@@ -53,7 +53,7 @@
          "value": "1725052009"
       },
       "BOT_ID": {
-         "description": "Your bot ID.. Use any other bot to get it.",
+         "description": "Needs your bot ID. Use any other bot to get it.",
          "required": true,
          "value": ""
       },
@@ -67,12 +67,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "dihanrandila"
+         "value": "Awesome_MB"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "SophiaSupport_Official"
+         "value": "Tiger_SupportChat"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -84,7 +84,7 @@
          "required": false
      },
      "IBM_WATSON_CRED_PASSWORD": {
-        "description": "This is required for the speech to text module. Get your PASSWORD from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
+        "description": "Get your PASSWORD from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
         "required": false
      },
      "EVENT_LOGS": {
